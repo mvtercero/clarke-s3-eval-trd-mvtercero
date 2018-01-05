@@ -1,0 +1,93 @@
+$color-light: #ffffff;
+$color-light-midtone: #e2f1f9;
+$color-midtone: #304268;
+$color-dark-midtone: #4a4a4a;
+$color-dark: #000000;
+$color-primary: #0271bc;
+$color-secondary: #8ccbea;
+$color-info: #f26002;
+
+/*variables tipografias HERO*/
+$hero-title-font-family: 'Roboto Slab', sans-serif;
+$hero-title-font-size-s: 42px;
+$hero-title-font-size-m: 80px;
+$hero-title-font-size-l: 100px;
+$hero-title-line-height-s: 1.31;
+$hero-title-line-height-m: 1.32;
+$hero-title-line-height-l: 1.33;
+$hero-title-font-color: $color-light;
+$hero-title-font-weight: 700;
+
+$hero-summary-font-family: 'Roboto', sans-serif;
+$hero-summary-font-size-s: 16px;
+$hero-summary-font-size-m: 24px;
+$hero-summary-font-color: $color-light;
+$hero-summary-font-weight: 400;
+
+ /*variables tipografias SECTION*/
+
+ $section-title-font-family: 'Roboto Slab', sans-serif;
+ $section-title-font-size-s: 24px;
+ $section-title-font-size-m: 26px;
+ $section-title-font-size-l: 32px;
+ $section-title-line-height-s: 1.25;
+ $section-title-line-height-m: 1.73;
+ $section-title-line-height-l: 1.41;
+ $section-title-font-color: $color-dark;
+ $section-title-font-weight: 700;
+
+ $section-font-family: 'Roboto', sans-serif;
+ $section-category-font-size-m: 14px;
+ $section-category-font-size-l: 16px;
+ $section-category-line-height: 2.14;
+ $section-category-font-color: $color-secondary;
+ $section-category-font-weight: 400;
+
+ $section-description-font-size-s: 18px;
+ $section-description-font-size-m: 20px;
+ $section-description-line-height-s: 1.5;
+ $section-description-line-height-m: 1.67;
+ $section-description-font-color: #4a4a4a;
+ $section-description-font-weight: 400;
+
+
+  /*variables tipografias BUTTON*/
+
+  $button-font-family: 'Roboto', sans-serif;
+  $button-font-size: 20px;
+  $button-line-height: 2.25;
+  $button-font-color: $color-info;
+  $button-font-color-2: $color-light;
+  $button-font-weight: 500;
+
+  /*variables tipografias REASON*/
+
+  $reason-title-font-family: 'Roboto Slab', sans-serif;
+  $reason-title-font-size: 18px;
+  $reason-title-line-height: 1.67;
+  $reason-title-font-color: #000000;
+  $reason-title-font-weight: 700;
+
+  $reason-description-font-family: 'Roboto', sans-serif;
+  $reason-description-font-size-s: 18px;
+  $reason-description-font-size-m: 20px;
+  $reason-description-line-height-s: 1.67;
+  $reason-description-line-height-m: 1.5;
+  $reason-description-font-color: $color-dark;
+  $reason-description-font-weight: 400;
+
+  /*variables tipografias MENU*/
+
+  $menu-item-font-family: 'Roboto Slab', sans-serif;
+  $menu-item-font-size: 16px;
+  $menu-item-line-height: 2.81;
+  $menu-item-font-color: $color-light;
+  $menu-item-font-weight: 300;
+
+  /*variables tipografias FOOTER*/
+
+  $footer-font-family: 'Roboto', sans-serif;
+  $footer-font-size: 14px;
+  $footer-line-height: 2.14;
+  $footer-font-color: $color-light;
+  $footer-font-weight: 400;
