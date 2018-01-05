@@ -16,6 +16,43 @@
   height: 11.7px;
 }
 
+.Rectangle-Middle-Card {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+}
+
+.Go {
+  width: 25px;
+  height: 45px;
+  color: #f26002;
+}
+
+.Rectangle {
+  width: 320px;
+  height: 376px;
+  background-color: #ffffff;
+}
+
+.Insomnia-Tips {
+  width: 90px;
+  height: 30px;
+  color: #8ccbea;
+}
+
+.Looking-Through-A-Wi {
+  width: 290px;
+  height: 60px;
+  color: #000000;
+}
+
+.Donec-accumsan-null {
+  width: 290px;
+  height: 120px;
+  color: #4a4a4a;
+}
+
 .Cover {
   width: 320px;
   height: 568px;
@@ -49,6 +86,30 @@
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
+}
+
+.Insomnia-Tips {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.14;
+  color: #8ccbea;
+}
+
+.Looking-Through-A-Wi {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+}
+
+.Donec-accumsan-null {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
 }
 
 * {
