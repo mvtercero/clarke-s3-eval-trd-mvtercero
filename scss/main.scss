@@ -1,0 +1,14 @@
+@import 'core/variables';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'components/buttons';
+@import 'components/typography';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
