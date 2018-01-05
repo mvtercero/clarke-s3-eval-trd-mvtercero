@@ -1,3 +1,56 @@
+/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/.btn {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+}
+
+.Rectangle-3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+}
+
+.ico-scroll-down {
+  width: 20px;
+  height: 11.7px;
+}
+
+.Cover {
+  width: 320px;
+  height: 568px;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Anonymous-Proxy {
+  width: 290px;
+  height: 110px;
+}
+
+.In-hac-habitasse-pla-Copy {
+  width: 290px;
+  height: 21px;
+  color: #ffffff;
+}
+
+.Anonymous-Proxy {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 42px;
+  line-height: 1.31;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.In-hac-habitasse-pla-Copy {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
