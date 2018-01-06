@@ -1,23 +1,47 @@
-.Rectangle {
+.card-section {
   width: 320px;
   height: 376px;
   background-color: $color-primary;
 }
 
-.Insomnia-Tips {
+.title-section-category {
   width: 90px;
   height: 30px;
   color: $color-light-midtone;
 }
 
-.Looking-Through-A-Wi {
+.section-title {
   width: 290px;
   height: 60px;
   color: $color-secondary;
 }
 
-.Donec-accumsan-null {
+.section-description {
   width: 290px;
   height: 120px;
   color: $color-tertiary;
+}
+
+.card-reason {
+  width: 320px;
+  height: 624px;
+  background-color: $color-light;
+}
+
+.reason-item {
+  width: 184px;
+  height: 93px;
+  list-style: none;
+}
+
+.reason-title-mobile {
+  width: 184px;
+  height: 30px;
+  color: $color-secondary;
+}
+
+.reason-description {
+  width: 180px;
+  height: 63px;
+  color: $color-secondary;
 }

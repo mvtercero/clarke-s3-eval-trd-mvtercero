@@ -1,59 +1,117 @@
-/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/.btn {
+/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/.footer {
+  width: 320px;
+  height: 128px;
+  background-color: #304268;
+}
+
+.layer {
+  width: 77px;
+  height: 30px;
+}
+
+.components {
+  width: 290px;
+  height: 30px;
+}
+
+.burguer-ico {
   width: 44px;
   height: 44px;
   background-color: #0271bc;
 }
 
-.Rectangle-3 {
+.button-scroll {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   background-color: #ffffff;
 }
 
-.ico-scroll-down {
+.button-ico-down {
   width: 20px;
   height: 11.7px;
 }
 
-.Rectangle-Middle-Card {
+.button-ico-up {
+  width: 20.6px;
+  height: 24px;
+}
+
+.button-section {
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px #f26002;
 }
 
-.Go {
+.button-text {
   width: 25px;
   height: 45px;
   color: #f26002;
 }
 
-.Rectangle {
+.button-section-reason {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+}
+
+.button-text-reason {
+  width: 133px;
+  height: 45px;
+  color: #ffffff;
+}
+
+.card-section {
   width: 320px;
   height: 376px;
   background-color: #ffffff;
 }
 
-.Insomnia-Tips {
+.title-section-category {
   width: 90px;
   height: 30px;
   color: #8ccbea;
 }
 
-.Looking-Through-A-Wi {
+.section-title {
   width: 290px;
   height: 60px;
   color: #000000;
 }
 
-.Donec-accumsan-null {
+.section-description {
   width: 290px;
   height: 120px;
   color: #4a4a4a;
 }
 
-.Cover {
+.card-reason {
+  width: 320px;
+  height: 624px;
+  background-color: #e2f1f9;
+}
+
+.reason-item {
+  width: 184px;
+  height: 93px;
+  list-style: none;
+}
+
+.reason-title-mobile {
+  width: 184px;
+  height: 30px;
+  color: #000000;
+}
+
+.reason-description {
+  width: 180px;
+  height: 63px;
+  color: #000000;
+}
+
+.hero {
   width: 320px;
   height: 568px;
   background-image: url("../images/cover.jpg");
@@ -62,18 +120,28 @@
   background-position: center;
 }
 
-.Anonymous-Proxy {
+.hero-title-mobile {
   width: 290px;
   height: 110px;
 }
 
-.In-hac-habitasse-pla-Copy {
+.hero-summary-mobile {
   width: 290px;
   height: 21px;
   color: #ffffff;
+}/*CLASES DE AYUDA*/.txt-center {
+  text-align: center;
 }
 
-.Anonymous-Proxy {
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.hero-title-mobile {
   font-family: "Roboto Slab", sans-serif;
   font-size: 42px;
   line-height: 1.31;
@@ -81,14 +149,14 @@
   color: #ffffff;
 }
 
-.In-hac-habitasse-pla-Copy {
+.hero-summary-mobile {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
 }
 
-.Insomnia-Tips {
+.title-section-category {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -96,7 +164,7 @@
   color: #8ccbea;
 }
 
-.Looking-Through-A-Wi {
+.section-title {
   font-family: "Roboto Slab", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -104,12 +172,52 @@
   color: #000000;
 }
 
-.Donec-accumsan-null {
+.section-description {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: #000000;
+}
+
+.reason-title-mobile {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.67;
+  color: #000000;
+}
+
+.reason-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  color: #000000;
+}
+
+.button-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  color: #f26002;
+}
+
+.button-text-reason {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  color: #ffffff;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.14;
+  color: #ffffff;
 }
 
 * {

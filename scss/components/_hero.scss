@@ -1,4 +1,4 @@
-.Cover {
+.hero {
   width: 320px;
   height: 568px;
   background-image: url("../images/cover.jpg");
@@ -7,12 +7,12 @@
   background-position: center;
 }
 
-.Anonymous-Proxy {
+.hero-title-mobile {
   width: 290px;
   height: 110px;
 }
 
-.In-hac-habitasse-pla-Copy {
+.hero-summary-mobile {
   width: 290px;
   height: 21px;
   color: $color-primary;

@@ -1,24 +1,43 @@
-.Rectangle-3 {
+.button-scroll {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-primary;
 }
 
-.ico-scroll-down {
+.button-ico-down {
   width: 20px;
   height: 11.7px;
 }
 
-.Rectangle-Middle-Card {
+.button-ico-up {
+  width: 20.6px;
+  height: 24px;
+}
+
+
+.button-section {
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px $color-info;
 }
 
-.Go {
+.button-text {
   width: 25px;
   height: 45px;
   color: $color-info;
+}
+
+.button-section-reason {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-info;
+}
+
+.button-text-reason {
+  width: 133px;
+  height: 45px;
+  color: $color-primary;
 }
