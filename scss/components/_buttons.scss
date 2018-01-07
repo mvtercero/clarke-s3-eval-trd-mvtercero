@@ -5,8 +5,6 @@
   background-color: $color-primary;
   margin-top: 45px;
   margin-bottom: 53px;
-  border-style:none;
-  border-color:inherit;
 }
 
 .button-ico-down {
@@ -37,13 +35,12 @@
   border-radius: 22.5px;
   background-color: $color-info;
   margin-top: 45px;
-  border-style:none;
-  border-color:inherit;
 }
 
 .button-text-reason {
   color: $color-primary;
   margin: 0px;
+  text-decoration:none;
 }
 
 .button-scroll-up {
@@ -52,8 +49,6 @@
   border-radius: 22.5px;
   background-color: $color-primary;
   margin-top: 38px;
-  border-style:none;
-  border-color:inherit;
   position: relative;
   bottom: -20px;
 }
@@ -61,4 +56,9 @@
 .button-ico-up {
   display:block;
   margin: auto;
+}
+
+.no-style-button {
+  border-style:none;
+  border-color:inherit;
 }
