@@ -6,6 +6,14 @@
 .bold {font-weight: bold;}
 .light {font-weight: lighter;}
 
+.menu-item-text {
+  font-family: $menu-item-font-family;
+  font-size: $menu-item-font-size-s;
+  line-height: $menu-item-line-height;
+  font-weight: $menu-item-font-weight;
+  color:$menu-item-font-color;
+}
+
 .hero-title-mobile {
   font-family: $hero-title-font-family;
   font-size: $hero-title-font-size-s;

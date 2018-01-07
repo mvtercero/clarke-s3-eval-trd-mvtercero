@@ -77,6 +77,33 @@
   margin-top: 14px;
 }
 
+.menu {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  height: 44px;
+  border-bottom: 1px solid #e2f1f9;
+}
+
+.menu-item-text {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.position-close {
+  right: -44px;
+  background-color: #f26002;
+}
+
 .button-scroll-down {
   width: 45px;
   height: 45px;
@@ -248,6 +275,14 @@
 
 .light {
   font-weight: lighter;
+}
+
+.menu-item-text {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 14px;
+  line-height: 2.81;
+  font-weight: 300;
+  color: #4a4a4a;
 }
 
 .hero-title-mobile {
