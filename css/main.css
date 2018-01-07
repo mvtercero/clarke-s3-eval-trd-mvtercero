@@ -1,20 +1,30 @@
-/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/.footer {
+/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/#footer {
   width: 100%;
-  height: 128px;
+  height: auto;
   background-color: #304268;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .layer {
-  width: 77px;
-  height: 30px;
+  margin-top: 38px;
+  margin-bottom: 0px;
 }
 
 .components {
-  width: 290px;
-  height: 30px;
+  margin: 0px;
+  margin-bottom: 30px;
 }
 
-.hero {
+#hero {
   width: 100%;
   height: 100%;
   background-image: url("../images/cover.jpg");
@@ -39,88 +49,48 @@
 .hero-title-mobile {
   width: 290px;
   height: 110px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
 }
 
 .hero-summary-mobile {
   width: 290px;
   height: 21px;
   color: #ffffff;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .burguer {
   position: absolute;
   top: 0;
-}
-
-.burguer-ico {
   width: 44px;
   height: 44px;
   background-color: #0271bc;
 }
 
-.card-section {
-  width: 320px;
-  height: 376px;
-  background-color: #ffffff;
+.burguer-ico {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 14px;
 }
 
-.title-section-category {
-  width: 90px;
-  height: 30px;
-  color: #8ccbea;
-}
-
-.section-title {
-  width: 290px;
-  height: 60px;
-  color: #000000;
-}
-
-.section-description {
-  width: 290px;
-  height: 120px;
-  color: #4a4a4a;
-}
-
-.card-reason {
-  width: 320px;
-  height: 624px;
-  background-color: #e2f1f9;
-}
-
-.reason-item {
-  width: 184px;
-  height: 93px;
-  list-style: none;
-}
-
-.reason-title-mobile {
-  width: 184px;
-  height: 30px;
-  color: #000000;
-}
-
-.reason-description {
-  width: 180px;
-  height: 63px;
-  color: #000000;
-}
-
-.button-scroll {
+.button-scroll-down {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   background-color: #ffffff;
+  margin-top: 45px;
+  margin-bottom: 53px;
+  border-style: none;
+  border-color: inherit;
 }
 
 .button-ico-down {
-  width: 20px;
-  height: 11.7px;
-}
-
-.button-ico-up {
-  width: 20.6px;
-  height: 24px;
+  display: block;
+  margin: auto;
 }
 
 .button-section {
@@ -128,12 +98,16 @@
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px #f26002;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  background-color: #ffffff !important;
 }
 
 .button-text {
-  width: 25px;
-  height: 45px;
   color: #f26002;
+  text-decoration: none;
 }
 
 .button-section-reason {
@@ -141,12 +115,121 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: #f26002;
+  margin-top: 45px;
+  border-style: none;
+  border-color: inherit;
 }
 
 .button-text-reason {
-  width: 133px;
-  height: 45px;
   color: #ffffff;
+  margin: 0px;
+}
+
+.button-scroll-up {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+  margin-top: 38px;
+  border-style: none;
+  border-color: inherit;
+  position: relative;
+  bottom: -20px;
+}
+
+.button-ico-up {
+  display: block;
+  margin: auto;
+}
+
+#card-section {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.title-section-category {
+  width: 90px;
+  height: 30px;
+  color: #8ccbea;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.section-title {
+  width: 290px;
+  height: 60px;
+  color: #000000;
+  margin: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.section-description {
+  width: 290px;
+  height: 120px;
+  color: #4a4a4a;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+#card-section-list {
+  width: 100%;
+  height: auto;
+  background-color: #e2f1f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-title-reason {
+  color: #000000;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card-reason-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.reason-item {
+  list-style: none;
+  margin-left: 68px;
+  margin-right: 68px;
+  margin-top: 45px;
+}
+
+.reason-title-mobile {
+  width: 184px;
+  height: 30px;
+  color: #000000;
+  margin: 0px;
+}
+
+.reason-description {
+  width: 180px;
+  height: 63px;
+  color: #000000;
+  margin: 0px;
 }/*CLASES DE AYUDA*/.txt-center {
   text-align: center;
 }
@@ -155,8 +238,16 @@
   text-align: left;
 }
 
-.txt-right {
-  text-align: right;
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: lighter;
 }
 
 .hero-title-mobile {
@@ -195,7 +286,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #000000;
+  color: #4a4a4a;
 }
 
 .reason-title-mobile {
@@ -203,6 +294,14 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 1.67;
+  color: #000000;
+}
+
+.section-title-reason {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
   color: #000000;
 }
 
@@ -238,6 +337,34 @@
   color: #ffffff;
 }
 
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.margin-xs {
+  margin: 15px;
+}
+
+.margin-top-xs {
+  margin: 30px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -246,6 +373,18 @@
 body,html {
   height: 100%;
   margin: 0px;
+}
+
+@media (min-width: 1024px) {
+  .hide-lg {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hide-sm {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

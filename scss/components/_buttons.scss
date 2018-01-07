@@ -1,32 +1,34 @@
-.button-scroll {
+.button-scroll-down {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-primary;
+  margin-top: 45px;
+  margin-bottom: 53px;
+  border-style:none;
+  border-color:inherit;
 }
 
 .button-ico-down {
-  width: 20px;
-  height: 11.7px;
+  display:block;
+  margin: auto;
 }
-
-.button-ico-up {
-  width: 20.6px;
-  height: 24px;
-}
-
 
 .button-section {
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px $color-info;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  background-color: $color-primary!important;
 }
 
 .button-text {
-  width: 25px;
-  height: 45px;
   color: $color-info;
+  text-decoration:none;
 }
 
 .button-section-reason {
@@ -34,10 +36,29 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-info;
+  margin-top: 45px;
+  border-style:none;
+  border-color:inherit;
 }
 
 .button-text-reason {
-  width: 133px;
-  height: 45px;
   color: $color-primary;
+  margin: 0px;
+}
+
+.button-scroll-up {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-primary;
+  margin-top: 38px;
+  border-style:none;
+  border-color:inherit;
+  position: relative;
+  bottom: -20px;
+}
+
+.button-ico-up {
+  display:block;
+  margin: auto;
 }

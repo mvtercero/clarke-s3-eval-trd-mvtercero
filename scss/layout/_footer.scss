@@ -1,15 +1,18 @@
-.footer {
+#footer {
   width: 100%;
-  height: 128px;
+  height: auto;
   background-color: $color-dark-midtone;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .layer {
-  width: 77px;
-  height: 30px;
+  margin-top: 38px;
+  margin-bottom: 0px;
 }
 
 .components {
-  width: 290px;
-  height: 30px;
+  margin: 0px;
+  margin-bottom: 30px;
 }

@@ -1,10 +1,14 @@
 .burguer {
   position: absolute;
   top: 0;
-}
-
-.burguer-ico {
   width: 44px;
   height: 44px;
   background-color: $color-midtone;
+}
+
+.burguer-ico {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 14px;
 }

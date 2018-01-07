@@ -1,8 +1,10 @@
 /*CLASES DE AYUDA*/
 
 .txt-center {text-align: center;}
-.txt-left { text-align: left;}
-.txt-right { text-align: right;}
+.txt-left {text-align: left;}
+.uppercase {text-transform: uppercase;}
+.bold {font-weight: bold;}
+.light {font-weight: lighter;}
 
 .hero-title-mobile {
   font-family: $hero-title-font-family;
@@ -40,7 +42,7 @@
   font-size: $section-description-font-size-s;
   font-weight: $section-description-font-weight;
   line-height: $section-description-line-height-s;
-  color: $section-title-font-color;
+  color: $section-description-font-color;
 }
 
 .reason-title-mobile {
@@ -49,6 +51,14 @@
   font-weight: $reason-title-font-weight;
   line-height: $reason-title-line-height;
   color: $reason-title-font-color;
+}
+
+.section-title-reason {
+  font-family: $section-title-font-family;
+  font-size: $section-title-font-size-m;
+  font-weight: $section-title-font-weight;
+  line-height: $section-title-line-height-s;
+  color: $section-title-font-color;
 }
 
 .reason-description {
