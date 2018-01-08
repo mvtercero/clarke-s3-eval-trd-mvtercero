@@ -20,6 +20,16 @@
   line-height:$hero-title-line-height-s;
   font-weight: $hero-title-font-weight;
   color: $color-primary;
+
+  @media all and (min-width:768px) {
+  font-size: $hero-title-font-size-m;
+  line-height: $hero-title-line-height-m;
+  }
+
+  @media all and (min-width:1280px) {
+  font-size: $hero-title-font-size-l;
+  line-height: $hero-title-line-height-l;
+  }
 }
 
 .hero-summary-mobile {
@@ -27,6 +37,10 @@
   font-size: $hero-summary-font-size-s;
   font-weight: $hero-summary-font-weight;
   color: $color-primary;
+
+  @media all and (min-width:768px) {
+  font-size: $hero-summary-font-size-m;
+  }
 }
 
 .title-section-category {
@@ -35,14 +49,30 @@
   font-weight: $section-category-font-weight;
   line-height: $section-category-line-height;
   color:$section-category-font-color;
+
+  @media all and (min-width:1280px) {
+  font-size: $section-category-font-size-l;
+  }
+
 }
 
 .section-title {
   font-family: $section-title-font-family;
-  font-size: $section-title-font-size-m;
+  font-size: $section-title-font-size-s;
   font-weight: $section-title-font-weight;
   line-height: $section-title-line-height-s;
   color: $section-title-font-color;
+
+  @media all and (min-width:768px) {
+    font-size: $section-title-font-size-m;
+    line-height: $section-title-line-height-m;
+  }
+
+  @media all and (min-width:1280px) {
+    font-size: $section-category-font-size-l;
+    line-height: $section-title-line-height-l;
+  }
+
 }
 
 .section-description {
@@ -51,6 +81,11 @@
   font-weight: $section-description-font-weight;
   line-height: $section-description-line-height-s;
   color: $section-description-font-color;
+
+  @media all and (min-width:768px) {
+    font-size: $section-description-font-size-m;
+    line-height: $section-description-line-height-m;
+  }
 }
 
 .reason-title-mobile {
@@ -59,15 +94,28 @@
   font-weight: $reason-title-font-weight;
   line-height: $reason-title-line-height;
   color: $reason-title-font-color;
+
 }
 
+//comprobar si es section title o reason title
 .section-title-reason {
   font-family: $section-title-font-family;
   font-size: $section-title-font-size-m;
   font-weight: $section-title-font-weight;
   line-height: $section-title-line-height-s;
   color: $section-title-font-color;
-}
+
+    @media all and (min-width:768px) {
+      font-size: $section-title-font-size-m;
+      line-height: $section-title-line-height-m;
+    }
+
+    @media all and (min-width:1280px) {
+      font-size: $section-title-font-size-l;
+      line-height: $section-title-line-height-l;
+    }
+  }
+
 
 .reason-description {
   font-family: $reason-description-font-family;
@@ -75,6 +123,11 @@
   font-weight: $reason-description-font-weight;
   line-height: $reason-description-line-height-s;
   color: $reason-description-font-color;
+
+  @media all and (min-width:768px) {
+    font-size: $reason-description-font-size-m;
+    line-height: $reason-description-line-height-m;
+  }
 }
 
 .button-text {
