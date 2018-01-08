@@ -22,6 +22,16 @@
   margin-top: 30px;
   margin-bottom: 45px;
   background-color: $color-primary!important;
+
+  @media all and (min-width:768px) {
+      width: 91px;
+      margin-left: 39px;
+      margin-bottom: 60px;
+  }
+  @media all and (min-width:1280px) {
+    width: 160px;
+    margin-left: 275px;
+  }
 }
 
 .button-text {

@@ -173,13 +173,6 @@
   width: 100%;
   height: auto;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
 }
 
 .title-section-category {
@@ -410,9 +403,90 @@ body,html {
   margin: 0px;
 }
 
+@media all and (min-width: 768px) {
+  .button-section {
+    width: 91px;
+    margin-left: 39px;
+    margin-bottom: 60px;
+  }
+
+  #card-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .title-section-category {
+    width: 216px;
+    margin-left: 39px;
+    margin-right: 513px;
+  }
+
+  .section-title {
+    width: 690px;
+    height: 45px;
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+
+  .section-description {
+    width: 690px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+}
+
 @media (min-width: 1024px) {
   .hide-lg {
     display: none;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .button-section {
+    width: 160px;
+    margin-left: 275px;
+  }
+
+  #card-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .title-section-category {
+    width: 360px;
+    margin-top: 60px;
+    margin-left: 275px;
+    margin-right: 645px;
+  }
+
+  .section-title {
+    width: 730px;
+    margin-left: 275px;
+    margin-right: 275px;
+  }
+
+  .section-description {
+    width: 730px;
+    margin-left: 275px;
+    margin-right: 275px;
   }
 }
 
