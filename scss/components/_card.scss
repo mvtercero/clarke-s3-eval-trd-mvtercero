@@ -3,86 +3,40 @@
   height: auto;
   background-color: $color-primary;
 
-  @media all and (min-width:768px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
-  @media all and (min-width:1280px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-}
 
 
 .title-section-category {
-  width: 90px;
-  // height: 30px;
   color: $color-light-midtone;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
-  @media all and (min-width:768px) {
-      width: 216px;
-      margin-left: 39px;
-      margin-right: 513px;
-
+  margin: 30px 15px 0 15px;
+  @media all and (min-width: 768px) {
+  margin: 30px 39px 0 39px;
   }
-  @media all and (min-width:1280px) {
-    width: 360px;
-    margin-top: 60px;
-    margin-left: 275px;
-    margin-right: 645px;
-  }
+  @media all and (min-width: 1280px) {
+  margin: 60px 645px 0 275px;
+}
 }
 
 
 .section-title {
-  width: 290px;
-  // height: 60px;
-  color: $color-secondary;
-  margin: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
-
-  @media all and (min-width:768px) {
-      width: 690px;
-      // height: 45px;
-      margin-left: 39px;
-      margin-right: 39px;
-
+  margin: 0 15px;
+  @media all and (min-width: 768px) {
+  margin: 0 39px;
   }
-  @media all and (min-width:1280px) {
-    width: 730px;
-    margin-left: 275px;
-    margin-right: 275px;
-  }
+  @media all and (min-width: 1280px) {
+  margin: 0 275px;
+}
 }
 
 .section-description {
-  width: 290px;
-  // height: 120px;
   color: $color-tertiary;
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 0px;
-
-  @media all and (min-width:768px) {
-    width: 690px;
-    // height: 60px;
-      margin-top: 30px;
-      margin-left: 39px;
-      margin-right: 39px;
+  margin: 15px 15px 0 15px;
+  @media all and (min-width: 768px) {
+  margin: 30px 39px;
   }
-  @media all and (min-width:1280px) {
-    width: 730px;
-    margin-left: 275px;
-    margin-right: 275px;
-  }
+  @media all and (min-width: 1280px) {
+  margin: 30px 275px;
+}
 }
 
 #card-section-list {
@@ -94,58 +48,40 @@
 }
 
 .section-title-reason {
-  width: 290px;
   color: $color-secondary;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 30px 15px 0 15px;
+  @media all and (min-width: 768px) {
+  margin: 30px 160px 0 160px;
+  }
+  @media all and (min-width: 1280px) {
+  margin: 60px 275px 0 275px;
+}
+}
 
-  @media all and (min-width:768px) {
-    width: 450px;
-    margin-top: 60px;
-}
-  @media all and (min-width:1280px) {
-  width: 730px;
-}
-}
 
 .card-reason-list {
-  width: 100%;
   margin: 0px;
   padding: 0px;
 }
 
 .reason-item {
   list-style: none;
-  margin-left: 68px;
-  margin-right: 68px;
-  margin-top: 45px;
-}
+  margin: 45px 68px 0 68px;
+//   @media all and (min-width: 768px) {
+//   margin: 30px 160px 0 160px;
+//   }
+//   @media all and (min-width: 1280px) {
+//   margin: 60px 275px 0 275px;
+// }
 
+}
 
 .reason-title-mobile {
-  width: 184px;
-  // height: 30px;
   color: $color-secondary;
   margin: 0px;
-  @media all and (min-width:768px) {
-    width: 210px;
-}
-
-  @media all and (min-width:1280px) {
-  width: 350px;
-}
 }
 
 .reason-description {
-  width: 180px;
-  // height: 63px;
   color: $color-secondary;
   margin: 0px;
-  @media all and (min-width:768px) {
-    width: 210px;
-}
-
-  @media all and (min-width:1280px) {
-  width: 350px;
-}
 }
