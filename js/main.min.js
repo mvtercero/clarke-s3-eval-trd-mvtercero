@@ -3,6 +3,7 @@ var menu= document.querySelector('.menu');
 
 function showMenu() {
   menu.classList.remove('hidden');
+  menu.classList.add ('animation-menu');
 };
 
 function closeMenu() {

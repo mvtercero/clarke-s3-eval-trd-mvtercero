@@ -22,7 +22,13 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  transition: transform ease 2s;
 }
+
+.animation-menu {
+  transform: translate3d(-300px,0, 0);
+}
+
 
 
 .menu-item {
