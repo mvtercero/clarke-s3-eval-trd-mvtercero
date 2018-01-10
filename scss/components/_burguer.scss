@@ -15,7 +15,7 @@
 }
 
 .menu {
-  // width: 70%;
+  width: 276px;
   height: 100%;
   background-color: $color-primary;
   list-style: none;
@@ -24,37 +24,29 @@
 }
 
 .menuLateral {
-  width: 70%;
+  // width: 70%;
   height: 100%;
   position: absolute;
   top: 0;
   right: 116%;
-  background-color: transparent;
   transition: transform ease-in-out 5s;
 }
 
 .animation-menu {
-  transform: translate3d(270px, 0,0);
+  transform: translate3d(116%, 0,0);
 }
 
 @media all and (min-width:768px) {
-  .menuLateral {
-    width: 50%;
-  }
   .animation-menu {
-    transform: translate3d(500px, 0,0);
+    transform: translate3d(140%, 0,0);
   }
 }
 
 @media all and (min-width: 1280px) {
-  .menuLateral {
-    width: 30%;
-  }
   .animation-menu {
-    transform: translate3d(680px, 0,0);
+    transform: translate3d(180%, 0,0);
   }
 }
-
 
 .menu-item {
   height: 44px;
@@ -62,7 +54,6 @@
 }
 
 .menu-item-text {
-  width: 100%;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 10px;

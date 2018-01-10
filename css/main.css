@@ -1,32 +1,4 @@
-/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.relative {
-  position: relative;
-}
-
-.hidden {
-  display: none;
-}
-
-.margin-xs {
-  margin: 15px;
-}
-
-.margin-top-xs {
-  margin: 30px;
-}
-
-#footer {
+/*variables tipografias HERO*//*variables tipografias SECTION*//*variables tipografias BUTTON*//*variables tipografias REASON*//*variables tipografias MENU*//*variables tipografias FOOTER*/#footer {
   width: 100%;
   height: auto;
   background-color: #304268;
@@ -125,7 +97,7 @@
   text-align: center;
 }
 
-.hero-title-mobile {
+.hero-title {
   width: 290px;
   text-align: center;
   margin: 0 auto;
@@ -156,6 +128,7 @@
 }
 
 .menu {
+  width: 276px;
   height: 100%;
   background-color: #ffffff;
   list-style: none;
@@ -164,12 +137,10 @@
 }
 
 .menuLateral {
-  width: 70%;
   height: 100%;
   position: absolute;
   top: 0;
   right: 116%;
-  background-color: transparent;
   -webkit-transition: -webkit-transform ease-in-out 5s;
   transition: -webkit-transform ease-in-out 5s;
   transition: transform ease-in-out 5s;
@@ -177,8 +148,8 @@
 }
 
 .animation-menu {
-  -webkit-transform: translate3d(270px, 0, 0);
-  transform: translate3d(270px, 0, 0);
+  -webkit-transform: translate3d(116%, 0, 0);
+  transform: translate3d(116%, 0, 0);
 }
 
 .menu-item {
@@ -187,7 +158,6 @@
 }
 
 .menu-item-text {
-  width: 100%;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 10px;
@@ -279,7 +249,7 @@
   color: #4a4a4a;
 }
 
-.hero-title-mobile {
+.hero-title {
   font-family: "Roboto Slab", sans-serif;
   font-size: 42px;
   line-height: 1.31;
@@ -395,7 +365,7 @@ body,html {
     margin-top: 60px;
   }
 
-  .hero-title-mobile {
+  .hero-title {
     width: 690px;
     margin: 0 auto;
     padding-top: 384px;
@@ -406,13 +376,9 @@ body,html {
     margin: 20px auto;
   }
 
-  .menuLateral {
-    width: 50%;
-  }
-
   .animation-menu {
-    -webkit-transform: translate3d(500px, 0, 0);
-    transform: translate3d(500px, 0, 0);
+    -webkit-transform: translate3d(140%, 0, 0);
+    transform: translate3d(140%, 0, 0);
   }
 
   .title-section-category {
@@ -436,7 +402,7 @@ body,html {
     padding-right: 38px;
   }
 
-  .hero-title-mobile {
+  .hero-title {
     font-size: 80px;
     line-height: 1.32;
   }
@@ -472,15 +438,9 @@ body,html {
 }
 
 @media all and (min-width: 768px) and (min-width: 1280px) {
-  .hero-title-mobile {
+  .hero-title {
     width: 730px;
-    margin: 10px auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hide-lg {
-    display: none;
+    margin: 0 auto;
   }
 }
 
@@ -498,13 +458,9 @@ body,html {
     margin: 0 auto;
   }
 
-  .menuLateral {
-    width: 30%;
-  }
-
   .animation-menu {
-    -webkit-transform: translate3d(680px, 0, 0);
-    transform: translate3d(680px, 0, 0);
+    -webkit-transform: translate3d(180%, 0, 0);
+    transform: translate3d(180%, 0, 0);
   }
 
   .title-section-category {
@@ -528,7 +484,7 @@ body,html {
     padding-right: 85px;
   }
 
-  .hero-title-mobile {
+  .hero-title {
     font-size: 100px;
     line-height: 1.33;
   }
@@ -545,12 +501,6 @@ body,html {
   .section-title-reason {
     font-size: 32px;
     line-height: 1.41;
-  }
-}
-
-@media (max-width: 1023px) {
-  .hide-sm {
-    display: none;
   }
 }
 

@@ -6,13 +6,9 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  //display:flex;
-  //flex-direction: column;
-  //justify-content: flex-end;
-  //align-items: center;
   }
 
-.hero-title-mobile {
+.hero-title {
   width: 290px;
   text-align: center;
   margin: 0 auto;
@@ -25,7 +21,7 @@
 
   @media all and (min-width:1280px) {
     width: 730px;
-    margin: 10px auto;
+    margin: 0 auto;
   }
 }
 
