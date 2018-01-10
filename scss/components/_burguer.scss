@@ -24,7 +24,7 @@
 }
 
 .menuLateral {
-  width: 50%;
+  width: 70%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -34,7 +34,25 @@
 }
 
 .animation-menu {
-  transform: translate3d(500px, 0,0);
+  transform: translate3d(270px, 0,0);
+}
+
+@media all and (min-width:768px) {
+  .menuLateral {
+    width: 50%;
+  }
+  .animation-menu {
+    transform: translate3d(500px, 0,0);
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .menuLateral {
+    width: 30%;
+  }
+  .animation-menu {
+    transform: translate3d(680px, 0,0);
+  }
 }
 
 
