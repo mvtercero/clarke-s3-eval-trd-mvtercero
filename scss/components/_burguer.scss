@@ -24,11 +24,17 @@
   position: absolute;
   top: 0;
   left:-100%;
-  transition: left ease-in-out 2s;
+  transition: left ease-in-out 1s;
 
   .animation-menu & {
     left:0;
+    z-index:1;
   }
+}
+
+.menuLateral {
+  background-color: rgba($color-secondary,0);
+  transition: background-color ease-in-out 2s;
 }
 
 .animation-menu {
@@ -37,13 +43,10 @@
   position: absolute;
   top:0;
   left:0;
-  background-color: rgba($color-secondary,0.8);
+  background-color:rgba($color-secondary, 0.8);
+  z-index:2;
 }
 
-.menuLateral {
-  background-color: rgba($color-secondary,0);
-  transition: background-color ease-in-out 2s;
-}
 
 .menu-item {
   height: 44px;
