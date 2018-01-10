@@ -111,7 +111,7 @@
   margin: 10px auto;
 }
 
-.burguer {
+.burguer,.burguer-close {
   position: absolute;
   top: 0;
   width: 44px;
@@ -127,17 +127,13 @@
   margin-top: 14px;
 }
 
-.menu {
+.menu-list {
+  width: 276px;
   height: 100%;
   background-color: #ffffff;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.menuLateral {
-  width: 276px;
-  height: 100%;
   position: absolute;
   top: 0;
   left: -100%;
@@ -145,8 +141,23 @@
   transition: left ease-in-out 2s;
 }
 
-.animation-menu {
+.animation-menu .menu-list {
   left: 0;
+}
+
+.animation-menu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menuLateral {
+  background-color: transparent;
+  -webkit-transition: background-color ease-in-out 2s;
+  transition: background-color ease-in-out 2s;
 }
 
 .menu-item {

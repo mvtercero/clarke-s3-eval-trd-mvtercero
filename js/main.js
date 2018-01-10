@@ -1,20 +1,15 @@
 
 var burguer= document.querySelector('.burguer');
+var burguerClose= document.querySelector('.burguer-close');
 var menuLateral= document.querySelector('.menuLateral');
 
+
 function showMenu() {
-  menuLateral.classList.add('animation-menu');
+  menuLateral.classList.toggle('animation-menu');
 };
 
-function closeMenu() {
-  menuLateral.classList.remove('animation-menu');
-}
-
 burguer.addEventListener('click', showMenu);
-menuLateral.addEventListener('click', closeMenu);
-
-
-
+burguerClose.addEventListener('click', showMenu);
 
 var container= document.querySelector('.container');
 var buttonReason= document.querySelector('.button-text-reason');
