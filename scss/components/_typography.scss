@@ -22,13 +22,13 @@
   color: $color-primary;
 
   @media all and (min-width:768px) {
-  font-size: $hero-title-font-size-m;
-  line-height: $hero-title-line-height-m;
+    font-size: $hero-title-font-size-m;
+    line-height: $hero-title-line-height-m;
   }
 
   @media all and (min-width:1280px) {
-  font-size: $hero-title-font-size-l;
-  line-height: $hero-title-line-height-l;
+    font-size: $hero-title-font-size-l;
+    line-height: $hero-title-line-height-l;
   }
 }
 
@@ -39,7 +39,7 @@
   color: $color-primary;
 
   @media all and (min-width:768px) {
-  font-size: $hero-summary-font-size-m;
+    font-size: $hero-summary-font-size-m;
   }
 }
 
@@ -51,7 +51,7 @@
   color:$section-category-font-color;
 
   @media all and (min-width:1280px) {
-  font-size: $section-category-font-size-l;
+    font-size: $section-category-font-size-l;
   }
 
 }
@@ -95,15 +95,20 @@
   line-height: $reason-title-line-height;
   color: $reason-title-font-color;
 
+  @media all and (min-width: 768px) {
+    font-size: $reason-title-font-size-m;
+    line-height: $reason-title-font-size-m;
+  }
+
 }
 
-//comprobar si es section title o reason title
-.section-title-reason {
-  font-family: $section-title-font-family;
-  font-size: $section-title-font-size-m;
-  font-weight: $section-title-font-weight;
-  line-height: $section-title-line-height-s;
-  color: $section-title-font-color;
+  //comprobar si es section title o reason title
+  .section-title-reason {
+    font-family: $section-title-font-family;
+    font-size: $section-title-font-size-m;
+    font-weight: $section-title-font-weight;
+    line-height: $section-title-line-height-s;
+    color: $section-title-font-color;
 
     @media all and (min-width:768px) {
       font-size: $section-title-font-size-m;
@@ -116,40 +121,39 @@
     }
   }
 
+  .reason-description {
+    font-family: $reason-description-font-family;
+    font-size: $reason-description-font-size-s;
+    font-weight: $reason-description-font-weight;
+    line-height: $reason-description-line-height-s;
+    color: $reason-description-font-color;
 
-.reason-description {
-  font-family: $reason-description-font-family;
-  font-size: $reason-description-font-size-s;
-  font-weight: $reason-description-font-weight;
-  line-height: $reason-description-line-height-s;
-  color: $reason-description-font-color;
-
-  @media all and (min-width:768px) {
-    font-size: $reason-description-font-size-m;
-    line-height: $reason-description-line-height-m;
+    @media all and (min-width:768px) {
+      font-size: $reason-description-font-size-m;
+      line-height: $reason-description-line-height-m;
+    }
   }
-}
 
-.button-text {
-  font-family: $button-font-family;
-  font-size: $button-font-size;
-  font-weight: $button-font-weight;
-  line-height: $button-line-height;
-  color: $button-font-color;
-}
+  .button-text {
+    font-family: $button-font-family;
+    font-size: $button-font-size;
+    font-weight: $button-font-weight;
+    line-height: $button-line-height;
+    color: $button-font-color;
+  }
 
-.button-text-reason {
-  font-family: $button-font-family;
-  font-size: $button-font-size;
-  font-weight: $button-font-weight;
-  line-height: $button-line-height;
-  color: $button-font-color-2;
-}
+  .button-text-reason {
+    font-family: $button-font-family;
+    font-size: $button-font-size;
+    font-weight: $button-font-weight;
+    line-height: $button-line-height;
+    color: $button-font-color-2;
+  }
 
-.footer-text {
-  font-family: $footer-font-family;
-  font-size: $footer-font-size;
-  font-weight: $footer-font-weight;
-  line-height: $footer-line-height;
-  color: $footer-font-color;
-}
+  .footer-text {
+    font-family: $footer-font-family;
+    font-size: $footer-font-size;
+    font-weight: $footer-font-weight;
+    line-height: $footer-line-height;
+    color: $footer-font-color;
+  }

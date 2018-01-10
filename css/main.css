@@ -139,52 +139,28 @@
   margin-bottom: 30px;
 }
 
-.container .item1 {
-  grid-column: 1/2;
-}
-
-.container .item2 {
-  grid-column: 2/3;
-}
-
-.container .item3 {
-  grid-column: 3/4;
-}
-
 #hero {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .hero-title-mobile {
   width: 290px;
   text-align: center;
-  margin: 0 15px;
+  margin: 0 auto;
+  padding-top: 284px;
 }
 
 .hero-summary-mobile {
   width: 290px;
   height: auto;
   color: #ffffff;
-  margin: 10px 15px 0 15px;
+  margin: 10px auto;
 }
 
 .burguer {
@@ -211,15 +187,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  -webkit-transition: -webkit-transform ease 2s;
-  transition: -webkit-transform ease 2s;
-  transition: transform ease 2s;
-  transition: transform ease 2s, -webkit-transform ease 2s;
-}
-
-.animation-menu {
-  -webkit-transform: translate3d(-300px, 0, 0);
-  transform: translate3d(-300px, 0, 0);
 }
 
 .menu-item {
@@ -342,23 +309,18 @@
 }
 
 .card-reason-list {
-  margin: 0px;
-  padding: 0px;
-}
-
-.reason-item {
-  list-style: none;
-  margin: 45px 68px 0 68px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .reason-title-mobile {
   color: #000000;
-  margin: 0px;
+  margin-top: 45px;
 }
 
 .reason-description {
   color: #000000;
-  margin: 0px;
+  margin-top: 20px;
 }
 
 .block {
@@ -419,6 +381,11 @@ body,html {
     line-height: 1.67;
   }
 
+  .reason-title-mobile {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
   .section-title-reason {
     font-size: 26px;
     line-height: 1.73;
@@ -432,17 +399,18 @@ body,html {
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(110px, auto);
+    grid-gap: 30px;
   }
 
   .hero-title-mobile {
     width: 690px;
-    margin: 0 39px;
+    margin: 0 auto;
+    padding-top: 384px;
   }
 
   .hero-summary-mobile {
     width: 360px;
-    margin: 20px 204px 0 204px;
+    margin: 20px auto;
   }
 
   .button-scroll-down {
@@ -472,6 +440,18 @@ body,html {
   .section-title-reason {
     margin: 30px 160px 0 160px;
   }
+
+  .card-reason-list {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+}
+
+@media all and (min-width: 768px) and (min-width: 1280px) {
+  .hero-title-mobile {
+    width: 730px;
+    margin: 10px auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -500,14 +480,9 @@ body,html {
     line-height: 1.41;
   }
 
-  .hero-title-mobile {
-    width: 730px;
-    margin: 10px 15px 0 15px;
-  }
-
   .hero-summary-mobile {
     width: 730px;
-    margin: 0 275px;
+    margin: 0 auto;
   }
 
   .button-scroll-down {
@@ -532,6 +507,11 @@ body,html {
 
   .section-title-reason {
     margin: 60px 275px 0 275px;
+  }
+
+  .card-reason-list {
+    padding-left: 85px;
+    padding-right: 85px;
   }
 }
 
