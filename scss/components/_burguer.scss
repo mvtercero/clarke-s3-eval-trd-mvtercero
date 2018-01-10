@@ -15,7 +15,6 @@
 }
 
 .menu {
-  // width: 276px;
   height: 100%;
   background-color: $color-primary;
   list-style: none;
@@ -24,7 +23,6 @@
 }
 
 .menuLateral {
-  // width: 70%;
   width: 276px;
   height: 100%;
   position: absolute;
@@ -35,20 +33,7 @@
 
 .animation-menu {
   left:0;
-  // transform: translate3d(100%, 0,0);
 }
-
-// @media all and (min-width:768px) {
-//   .animation-menu {
-//     transform: translate3d(400%, 0,0);
-//   }
-// }
-//
-// @media all and (min-width: 1280px) {
-//   .animation-menu {
-//     transform: translate3d(180%, 0,0);
-//   }
-// }
 
 .menu-item {
   height: 44px;
