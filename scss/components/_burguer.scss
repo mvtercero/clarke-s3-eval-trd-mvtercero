@@ -4,6 +4,7 @@
   width: 44px;
   height: 44px;
   background-color: $color-midtone;
+  padding:0;
 }
 
 .burguer-ico {
@@ -14,21 +15,27 @@
 }
 
 .menu {
-  position: absolute;
-  top: 0;
-  width: 70%;
+  // width: 70%;
   height: 100%;
   background-color: $color-primary;
   list-style: none;
   margin: 0;
   padding: 0;
-  // transition: transform ease 2s;
 }
 
-// .animation-menu {
-//   transform: translate3d(-300px,0,0);
-// }
+.menuLateral {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 116%;
+  background-color: transparent;
+  transition: transform ease-in-out 5s;
+}
 
+.animation-menu {
+  transform: translate3d(500px, 0,0);
+}
 
 
 .menu-item {
@@ -37,8 +44,9 @@
 }
 
 .menu-item-text {
+  width: 100%;
   text-decoration: none;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 10px;
 }
 
