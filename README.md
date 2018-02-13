@@ -1,1 +1,1 @@
-# Código boilerplate del ejercicio de evaluación del sprint 3 del curso front-end de Adalab
+Ejercicio de evaluación individual del sprint 3 de Adalab que consiste en la maquetación de una web basada en un diseño de Zeplin. Base con Gulp, uso de CSS Grid, resolución de interacciones usando JS y transiciones y obtención de contenido nuevo desde una API.
